@@ -1,0 +1,22 @@
+/* pages/feedbacks/feedbacks.wxss */
+.text{
+  color:#aaa;
+  position:absolute;
+  left:3%;
+}
+.feedbacks{
+  position: absolute;
+  width: 668rpx;
+  height: 1000rpx;
+  left: 50%;
+  margin-left: -334rpx;
+  top: 70rpx;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.text1{
+  color:darkkhaki;
+}
+.text2{
+  color:chocolate;
+}

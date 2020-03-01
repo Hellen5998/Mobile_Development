@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feedbacks/feedbacks",
+    "pages/chapters/chapters"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "首 页",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"icon/01.jpg",
+        "selectedIconPath":"icon/01.jpg"
+      },
+      {
+        "pagePath": "pages/chapters/chapters",
+        "text": "章节",
+        "iconPath": "icon/02.jpg",
+        "selectedIconPath": "icon/02.jpg"
+      },
+      {
+        "pagePath":"pages/feedbacks/feedbacks",
+        "text": "书评",
+        "iconPath": "icon/03.jpg",
+        "selectedIconPath": "icon/03.jpg"
+      }
+    ],
+    "backgroundColor":"#f6f6f6"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

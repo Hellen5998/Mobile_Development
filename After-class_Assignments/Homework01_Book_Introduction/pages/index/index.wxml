@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="index">
+<image src="../../icon/04.jpg" mode="aspectFit"></image>
+<view class="bookname">《瓦尔登湖》</view>
+<view>作者：【美】亨利·戴维·梭罗 </view>
+<view>出版社：天津人民出版社</view>
+<view class="allintro">简介：</view>
+<view class="intro">
+《瓦尔登湖》共由18篇散文组成，在四季循环更替的过程中，详细记录了梭罗内心的渴望、冲突、失望和自我调整，以及调整过后再次渴望的复杂的心路历程，几经循环，直到最终实现为止。表明了作者用它来挑战他个人的、甚至是整个人类的界限。但这种挑战不是对实现自我价值的无限希望，而是伤后复原的无限力量。
+</view>
+</view>

@@ -1,0 +1,100 @@
+<!--pages/chapters/chapters.wxml-->
+ <view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr">
+          <view class="th th1">章节</view>
+          <view class="th th2">中文</view>
+          <view class="th th3">英文</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">一</view>
+          <view class="td td2">经济篇</view>
+          <view class="td td3">Economy</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">二</view>
+          <view class="td td2">我的生活所在；我的生活追求</view>
+          <view class="td td3">Where I Lived,and What I Lived For</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">三</view>
+          <view class="td td2">阅读</view>
+          <view class="td td3">Reading</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">四</view>
+          <view class="td td2">声</view>
+          <view class="td td3">Sounds</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">五</view>
+          <view class="td td2">孤独</view>
+          <view class="td td3">Solitude</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">六</view>
+          <view class="td td2">访客</view>
+          <view class="td td3">Visitors</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">七</view>
+          <view class="td td2">豆田</view>
+          <view class="td td3">	The Bean-Field</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">八</view>
+          <view class="td td2">村子</view>
+          <view class="td td3">	The Village</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">九</view>
+          <view class="td td2">湖</view>
+          <view class="td td3">	The Ponds</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十</view>
+          <view class="td td2">贝克田庄</view>
+          <view class="td td3">	Baker Farm</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十一</view>
+          <view class="td td2">更高的法则</view>
+          <view class="td td3">	Higher Laws</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十二</view>
+          <view class="td td2">禽兽为邻</view>
+          <view class="td td3">	Brute Neighbors</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十三</view>
+          <view class="td td2">室内取暖</view>
+          <view class="td td3">	House-warming</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十四</view>
+          <view class="td td2">昔日的居民，冬日的访客</view>
+          <view class="td td3">	Former Inhabitants; and Winter Visitors</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十五</view>
+          <view class="td td2">冬天的禽兽</view>
+          <view class="td td3">	Winter Animals</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十六</view>
+          <view class="td td2">冬天的湖</view>
+          <view class="td td3">	The Pond in Winter</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十七</view>
+          <view class="td td2">春天</view>
+          <view class="td td3">	Spring</view>
+      </view>
+      <view class="tr">
+          <view class="td td1">十八</view>
+          <view class="td td2">结束语</view>
+          <view class="td td3">	Conclusion</view>
+      </view>
+    </view>
+ </view>
