@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index1/index1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff9400",
+    "navigationBarTitleText": "CODE TEST",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text":"index",
+        "iconPath":"icon/01.jpg",
+        "selectedIconPath":"icon/01.jpg"
+      },
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "index1",
+        "iconPath": "icon/03.jpg",
+        "selectedIconPath": "icon/03.jpg"
+      }
+    ],
+    "color":"#ff9400",
+    "selectedcolor":"#ff0094",
+    "backgroundColor":"#f6f6f6",
+    "borderStyle":"white"
+  },
+  "debug":true,
+  "networkTimeout": {
+    "request": 30000,
+    "downloadFile": 30000
+  },
+  "requiredBackgroundModes": ["audio","location"],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置信息" 
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

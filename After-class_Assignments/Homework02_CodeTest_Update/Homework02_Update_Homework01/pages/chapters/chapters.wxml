@@ -1,0 +1,15 @@
+<!--pages/chapters/chapters.wxml-->
+ <view class='history-table-wrap'>
+    <view class="table">
+      <view class="tr">
+          <view class="th th1">章节</view>
+          <view class="th th2">中文</view>
+          <view class="th th3">英文</view>
+      </view>
+      <view wx:for="{{chapters}}" class="tr">
+          <view class="td td1">{{item.number}}</view>
+          <view class="td td2">{{item.Chinese}}</view>
+          <view class="td td3">{{item.English}}</view>
+      </view>
+    </view>
+ </view>

@@ -1,0 +1,43 @@
+<!--pages/index1/index1.wxml-->
+<!--数据绑定-->
+<view style="color:#a05050">数据绑定练习：</view>
+<view bindtap="viewTap"> 点击一下 </view>
+<view>{{text}}</view>
+<button bindtap="changeText">变为否定句</button>
+<view>{{num}}</view>
+<button bindtap="changeNum">改变数值</button>
+<view>{{array[0].first}}</view>
+<button bindtap="changeItemInArray"> 改变数组内的值 </button>
+<view>{{object.text}}</view>
+<button bindtap="changeItemInObject"> 改变对象内的值 </button>
+<view>{{newField.text}}</view>
+<button bindtap="addNewField"> 添加数据 </button>
+<view wx:if="{{num==0}}">num=0</view>
+<view wx:if="{{num==1}}">num=1</view>
+<checkbox checked="{{false}}">请勾选</checkbox>
+<view hidden="{{num ? true : false}}"> 点击改变数值后可隐藏此行文本</view>
+<view> {{(a + b) * c}}  </view>
+<view>{{text+"Nice to meet you!"}}</view>
+<!--列表渲染-->
+<view style="color:#a05050">列表渲染练习：</view>
+<view wx:for="{{arr}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.message}}
+</view>
+<!--条件渲染-->
+<view style="color:#a05050">条件渲染练习</view>
+<view wx:if="{{num == 0}}"> 当前数字为0 </view>
+<view wx:elif="{{num == 1}}"> 当前数字为1 </view>
+<!--模板-->
+<view style="color:#a05050">模板练习：</view>
+<template name="item1">
+  <view>
+    <text> {{a}}: {{b}} </text>
+    <text> Time: {{c}} </text>
+  </view>
+</template>
+<!--使用模板-->
+<template is="item1" data="{{...item}}"/>
+
+
+
+
