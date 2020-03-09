@@ -1,0 +1,33 @@
+<!--view标签测试-->
+<view hover-class="hc" hover-start-time="100" hover-stay-time="800">测试view标签，点一点试试看~</view>
+<!--测试横向滚动view-->
+<scroll-view class="svx" scroll-x="{{true}}">测试横向滚动,向左划一划试一试，测试横向滚动,向左划一划试一试</scroll-view>
+<!--测试纵向滚动view-->
+<scroll-view class="svy" scroll-y="{{true}}">测试纵向滚动,向上划一划试试看呀，测试纵向滚动,向上划一划试试看呀</scroll-view>
+<!--cover-iamge标签测试-->
+<text>测试cover-image标签：</text>
+<cover-image src="../../pic/timg.jpg"></cover-image>
+<!--cover-view标签测试-->
+<map style="width: 100%; height: 300px;" latitude="{{latitude}}" longitude="{{longitude}}">
+<cover-view class="cv">覆盖地图</cover-view>
+</map>
+<!--测试moveable-area标签和moveable-view标签-->
+<view>moveable测试</view>
+<movable-area></movable-area>
+<movable-area style="height: 200px; width: 200px; background: #aaa;">
+    <movable-view style="height: 50px; width: 50px; background: #9400ff;" x="{{x}}" y="{{y}}" direction="all">
+    </movable-view>
+  </movable-area>
+<!--swiper测试-->
+<text>swiper测试：</text>
+<swiper indicator-dots="{{true}}" indicator-color="#0094ff" autoplay="false" interval="1000" duration="1000">
+<swiper-item style="background-color:#ff0094">
+ <view class="swiper-item01">第一个</view>
+ </swiper-item>
+ <swiper-item style="background-color:#0094ff">
+ <view class="swiper-item02">第二个</view>
+ </swiper-item>
+  <swiper-item style="background-color:#9400ff">
+ <view class="swiper-item03">第三个</view>
+ </swiper-item>
+ </swiper>

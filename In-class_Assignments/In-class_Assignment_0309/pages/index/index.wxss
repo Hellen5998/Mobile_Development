@@ -1,0 +1,32 @@
+/**index.wxss**/
+.hc{
+  color:#ff9400;
+  background-color: #0094ff;
+}
+.svx{
+  width:100rpx;
+  height: 100rpx;
+  background-color: #9400ff;
+}
+.svy{
+  height:50rpx;
+  background-color: #fff023;
+}
+.cv{
+  background-color: #aa0769;
+}
+.swiper_item01{
+  background-color: #9400ff;
+  height:300rpx;
+  width:100%;
+}
+.swiper_item02{
+  background-color: #ff9400;
+  height:300rpx;
+  width:100%;
+}
+.swiper_item03{
+  background-color: #0094ff;
+  height:300rpx;
+  width:100%;
+}
