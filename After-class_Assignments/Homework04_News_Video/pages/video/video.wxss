@@ -1,0 +1,5 @@
+/* pages/video/video.wxss */
+.listitem{
+  color: #0094ff;
+  background-color: gray;
+}
