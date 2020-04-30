@@ -13,7 +13,7 @@
 - <strong>小程序api：</strong>wx.showToast、网络请求wx.request（回调函数接收并处理后端返回数据）等；
 - <strong>wx:if</strong>控制组件展示与隐藏（应用于“历史记录页面”详情页浮窗设计与自定义下拉菜单选择筛选条件） 与<strong>wx:for</strong>渲染列表；
 
-  <strong>后端（PHP+Linux云服务器+Mysql数据库）：</strong>
+<strong>后端（PHP+Linux云服务器+Mysql数据库）：</strong>
 
 - 数据库设计；
 - 接收前端表单参数并写入数据库；
