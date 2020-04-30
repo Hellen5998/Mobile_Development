@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!--index.wxml-->
+<view class="container">
+<view  wx:if="{{isSpeaking}}"  class="speak">
+<!--录音中-->
+<image wx:if="{{picId==1}}" class="imageClass" src="../../images/sound1.png" ></image>
+<image wx:if="{{picId==2}}" class="imageClass" src="../../images/sound2.png" ></image>
+<image wx:if="{{picId==3}}" class="imageClass" src="../../images/sound3.png" ></image>
+<image wx:if="{{picId==4}}" class="imageClass" src="../../images/sound4.png" ></image>
+<image wx:if="{{picId==5}}"class="imageClass" src="../../images/sound5.png" ></image>
+</view>
+
+<!--录音文件-->
+<scroll-view>
+<block  wx:for="{{voices}}">
+    <view class="cellClass">
+        <view class="cellRowClass" data-key="{{index}}"bindtap="playAudio" > 
+            <view  class="dateClass">文件路径:{{item.filePath}}</view>
+            <view  class="dateClass" >录音时间:{{item.createTime}}</view>
+            <view  class="dateClass">文件大小:{{item.size}}KB</view>
+        </view>  
+    </view>
+</block>
+</scroll-view>
+</view>
+
+<!--录音按钮-->
+ <view class="recordClass">
+ <button class="recordButtonClass" bindtouchstart="touchDown" bindtouchend="touchUp">长按录音</button>
+ <button class="clearButtonClass" bindtap="clearFileList">清空文件</button>
+ </view>
