@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<!--测试路由API-->
+<button bindtap="gotopath">跳转至“路由”页面</button>
+<button bindtap="alsogotopath">reLaunch跳转</button>
+<button bindtap="goto">redirectTo跳转</button>

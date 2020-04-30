@@ -1,0 +1,6 @@
+<!--pages/path/path.wxml-->
+<view bindtap="toast">点我显示Toast</view>
+<view bindtap="modal">点我可以进行选择哦</view>
+<button bindtap="ActionSheet">选择你喜欢的编程语言（ActionSheet测试）</button>
+<button bindtap="changenavtext">点我更改导航栏名称</button>
+<button bindtap="resetnav">点我更改导航栏设置</button>
