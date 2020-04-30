@@ -1,0 +1,92 @@
+/* pages/userCenter/userCenter.wxss */
+.mainViewClass {
+    height: 1134rpx;
+    width: 100%;
+}
+
+/*顶部视图背景样式*/
+.topviewClass {
+    background:url(../../imges/UserCenter/TopBackImage.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+}
+
+/*顶部个按钮样式（微信、qq、微博、手机登录）*/
+.topIconClass {
+    width: 90%;
+    height: 80%;
+    background-color: transparent;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*收藏、夜间、设置、历史、 cell 栏目*/
+.bottomview{
+    background-color: lightgray;
+    height: 70%;
+    width: 100%;
+}
+
+/*更多按钮*/
+.morebutton{
+    margin-top: -40rpx;
+    font-size: 14px;
+    color: white;
+    background-color: #999999;   
+    width: 320rpx;
+    height: 66rpx;
+    border-radius: 100rpx;
+}
+
+/*收藏、夜间、设置、历史 底部视图样式*/
+.cardBackClass{
+    width: 100%;
+    height: 120rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+/*收藏、夜间、设置、历史 按钮样式*/
+.cardClass {
+    display: flex;
+    flex-direction: column;
+    font-size: 28rpx;
+}
+
+/*组样式*/
+.sectionClass {
+     margin-top: 20rpx;
+}
+
+/*cell样式*/
+.cellClass {
+     background-color: white;
+     width: 100%;
+     height: 90rpx;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between;
+     align-items: center;
+     border-bottom: 1rpx solid lightgray;
+     box-sizing: border-box;
+     padding-left: 16rpx;
+     padding-right: 16rpx;
+}
+
+button.images::after {
+  border-style: none;
+}
+
+button.images {
+display: inline-block;
+margin: 0;
+padding: 0;
+}
