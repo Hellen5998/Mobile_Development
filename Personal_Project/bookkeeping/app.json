@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/calculate/calculate",
+    "pages/record/record"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFD700",
+    "navigationBarTitleText": "记 账 本",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_selected.png"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "text": "记账",
+        "iconPath": "images/record.png",
+        "selectedIconPath": "images/record.png"
+      },
+      {
+        "pagePath": "pages/calculate/calculate",
+        "text": "历史记录",
+        "iconPath": "images/calculate.png",
+        "selectedIconPath": "images/calculate.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
+}

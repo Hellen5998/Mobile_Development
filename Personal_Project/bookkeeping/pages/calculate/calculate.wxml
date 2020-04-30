@@ -1,0 +1,61 @@
+<!--pages/calculate/calculate.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+	<view class="page__hd">
+	<view class="page__title">筛选日期：</view>
+	  <!--下拉框  -->
+    <view class='list-msg2' bindtap='bindShowMsg'>
+        <text>{{tihuoWay}}</text>
+        <image style='height:30rpx;width:30rpx;' src='../../images/down.png'></image>
+    </view>
+		<!-- 下拉需要显示的列表 -->
+    <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect_today" data-name="今日账单">今日账单</view>
+        <view class="select_one" bindtap="mySelect_month" data-name="本月账单">本月账单</view>
+    </view>
+	</view>
+	<!--主体部分-->
+	<view class="page__bd">
+		<view class="weui-form-preview" wx:key="index" wx:for="{{goods}}">
+			<view class="weui-form-preview__hd">
+				<view class="weui-form-preview__item">
+					<label class="weui-form-preview__label">金额</label>
+					<em class="weui-form-preview__value">¥{{item.mymoney}}</em>
+				</view>
+			</view>
+			<view class="weui-form-preview__bd">
+				<view class="weui-form-preview__item">
+					<label class="weui-form-preview__label">备注</label>
+					<text class="weui-form-preview__value">{{item.notes}}</text>
+				</view>
+				<view class="weui-form-preview__item">
+					<label class="weui-form-preview__label">日期</label>
+					<text class="weui-form-preview__value">{{item.consumedate}}</text>
+				</view>
+			</view>
+			<view class="weui-form-preview__ft">
+				<a class="weui-form-preview__btn weui-form-preview__btn_primary" bindtap='showRule' data-item="{{item}}" data-money="{{item.mymoney}}" data-date="{{item.consumedate}}">详情</a>
+			</view>
+		</view>
+	</view>
+	<!--  详情页面  -->
+    <view class="ruleZhezhao {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+        <view class='ruleZhezhaoContent'>
+            <view class='ruleZhezhaoText'>
+                <text>金额：{{dataset_item.mymoney}}</text>
+					  </view>
+						<view class='ruleZhezhaoText'>
+                <text>日期：{{dataset_item.consumedate}}</text>
+					  </view>
+						<view class='ruleZhezhaoText'>
+                <text>来源：{{dataset_item.method}}</text>
+					  </view>
+						<view class='ruleZhezhaoText'>
+                <text>备注：{{dataset_item.notes}}</text>
+					  </view>
+						<view class='ruleZhezhaoText'>
+                <text>消费类别：{{dataset_item.consume}}</text>
+					  </view>
+            <image src='../../images/rule-hide.png' class='ruleHide' bindtap='hideRule'></image>
+        </view>
+    </view>
+</view>
