@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="mainClass">
+<view class="container">
+<!--轮播图-->
+<scroll-view scroll-x="true">
+<block wx:for="{{items}}" wx:key="index">
+<view class="item">
+<image wx:if="{{item.type=='image'}}" mode='widthFix' src="{{item.data}}"/>
+<text wx:if="{{item.type=='text'}}">{{item.data}}</text>
+<video src="{{item.data}}" wx:if="{{item.type=='video'}}"/>
+<text wx:if="{{item.type=='audio'}}" style="text-align:center;" bindtap="audioPlay" data-scr="{{item.data}}">音乐：《遇见你的时候所有星星都落到我头上》{{open}}</text>
+</view>
+</block>
+</scroll-view>
+</view>
+
+<button bindtap="change">更换内容</button>
+
+</view>
